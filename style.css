@@ -1,0 +1,124 @@
+* {
+    padding: 0px;
+    margin: 0px
+}
+
+ul,
+li {
+    margin-left: 30px;
+    padding-left: 0;
+}
+
+p, ul, li {
+    padding-top: 3px;
+}
+
+body {
+    background-color: rgb(0, 0, 0)
+}
+
+.grid-container {
+    display: grid;
+    row-gap: 0px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    margin-top: 0px;
+    place-self: center;
+    width: 100%;
+}
+
+#site-caption {
+    text-align: center;
+
+    font-family: monospace;
+    font-size: 100%;
+
+    margin-left: 3%;
+}
+
+#header-image {
+    width: 100%;
+    height: 100px;
+    background-image: url(assets/AbydosLong.png);
+    background-size: cover;
+    background-position-y: 23%;
+}
+
+#AbydosNightimeImage {
+    place-self: center;
+    width: 100%;
+    height: 1000px;
+    background-image: url(assets/RobloxScreenShot20220411_230623121.png);
+    background-size: cover;
+    background-position-x: 50%;
+}
+#AbydosNightimeImage img {
+    place-self: center;
+}
+
+.content-div {
+    background-color: rgba(202, 202, 202, 0.065);
+    place-self: center;
+    width: 50%;
+    height: 100%;
+}
+
+.content-div * {
+    font-family: Helvetica;
+    color: rgb(214, 214, 214);
+}
+
+.content-div h1, .content-div h2, .content-div h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+.content-div p {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 15px;
+    text-align: left;
+}
+.content-div img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    margin-top: 20px;
+    width: 100px;
+    height: auto;
+    opacity: 0.4;
+}
+
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+.navbar-right {
+    float: right;
+    margin-right: 3%;
+}
+
+.navbar-btn {
+    font-family: monospace;
+    color: grey;
+    /* vertical-align: middle; */
+    margin-left: 20px;
+}
+
+.navbar-btn:link,
+.navbar-btn:visited, 
+.navbar-btn:active {
+    text-decoration: none;
+}
+.navbar-btn:hover {
+    text-decoration: none;
+    color: aqua;
+}
