@@ -45,7 +45,7 @@ body {
 #header-image {
     width: 100%;
     height: 100px;
-    background-image: url(assets/AbydosLong.png);
+    background-image: url(assets/pictures/AbydosLong.png);
     background-size: cover;
     background-position-y: 23%;
 }
@@ -54,7 +54,7 @@ body {
     place-self: center;
     width: 100%;
     height: 1000px;
-    background-image: url(assets/RobloxScreenShot20220411_230623121.png);
+    background-image: url(assets/pictures/AbydosPyramid.png);
     background-size: cover;
     background-position-x: 50%;
 }
