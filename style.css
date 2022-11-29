@@ -91,7 +91,7 @@ body {
 }
 .content-div img {
     position: relative;
-    top: 50%;
+    /* top: 50%; */ /* THIS BREAKS CHROME VIEW */
     left: 50%;
     transform: translate(-50%, 0);
 
