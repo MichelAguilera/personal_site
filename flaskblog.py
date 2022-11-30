@@ -2,7 +2,7 @@ from flask import Flask, render_template, url_for
 from forms import RegistrationForm, LoginForm
 app = Flask(__name__)
 
-app.config['SECRET_KEY'] = '67898466d55cfcc31821aaa4effad47b'
+app.config['SECRET_KEY'] = ''
 
 @app.route("/")
 @app.route("/index")
