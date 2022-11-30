@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css"/>
-    <title>Links</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}"/>
+    <title>michelaguilra.github.io</title>
 </head>
 <body>
 
@@ -13,13 +13,13 @@
     <div class="header-container grid-container">
         <!-- <div id="header-image"></div> -->
         <nav class="navbar">
-            <a href="index.html" id="site-caption" class="navbar-btn">Michel's Personal Archive</a>
+            <a href="/home" id="site-caption" class="navbar-btn">Michel's Personal Archive</a>
 
             <div class="navbar-right">
-                <a href="about.html" class="navbar-btn">About Me</a>
-                <a href="links.html" class="navbar-btn">Links</a>
-                <a href="gallery.html" class="navbar-btn">Gallery</a>
-                <a href="devlog.html" class="navbar-btn">Developer Log</a>
+                <a href="/about" class="navbar-btn">About Me</a>
+                <a href="/links" class="navbar-btn">Links</a>
+                <a href="/gallery" class="navbar-btn">Gallery</a>
+                <a href="/devlog" class="navbar-btn">Developer Log</a>
             </div>
             
         </nav>
@@ -27,9 +27,7 @@
 
     <!-- BODY -->
     <div id="AbydosNightimeImage" class="grid-container">
-        <div class="content-div">
-            <h1>Coming Soon!</h1>
-        </div>
+        {% block content %}{% endblock %}
     </div>
 
 </body>
