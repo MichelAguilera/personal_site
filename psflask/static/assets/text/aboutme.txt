@@ -1,0 +1,5 @@
+Hi, my name is Michel Aguilera. I am a programmer with over a year of experience. I am currently working towards expanding my knowledge of programming languages such as C and Rust, and I hold some certificates in Python and HTML/CSS, which I use to develop sites using Flask. I am also fluent in Lua, which I use to develop small games and libraries for Roblox using Rojo.
+
+My creativity drives me to create content that others can use and enjoy. I have created some useful tools for other programmers such as "Connode", which is capable of drawing organized nodes on a 3d field. Use cases can vary from game physics to object placement aid. This is acheived by calculating and returning points along a linear array or bezier curve.
+
+I am very interested in the future of information technology and programming, espcially artificial intelligence (which has aided in the writing of this bio). And so I plan to integrate this technology into different applications which I will develop in the future.
